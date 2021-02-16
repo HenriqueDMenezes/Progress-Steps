@@ -33,7 +33,7 @@ body{
   justify-content: space-between;
   position: relative;
   margin-bottom:30px;
-  max-width: auto;
+  max-width: 100%;
   width: 350px;
 }
 
@@ -46,7 +46,7 @@ body{
   height: 4px;
   width: 0%;
   z-index: -1;
-  transition: 0.4s ease;
+  transition: 0.4s ease; 
 }
 
 .progress-container::before{

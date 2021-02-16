@@ -13,7 +13,8 @@ next.addEventListener('click',()=>{
     currentActive = circles.length
   }
 
-  update()
+  update();
+  
 })
 
 
@@ -24,7 +25,7 @@ prev.addEventListener('click',()=>{
     currentActive = 1
   }
 
-  update()
+  update();
  
 })
 
@@ -45,10 +46,10 @@ function update(){
     prev.disabled = true;
 
   }else if(currentActive === circles.length){
-    next.disabled = true;
+    next.disabled = true;   
   }else{
-    prev.disable = false
-    next.disable = false
+    prev.disabled = false;
+    next.disabled = false;
   }
 
 }
